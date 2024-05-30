@@ -1,0 +1,165 @@
+html{
+    font-family: Helvetica, sans-serif;
+}
+.banner{
+    width: 100%;
+    height: 600px;
+    background-image: url(img/capa2.jpg);
+    background-position: center;
+    position: relative;
+}
+.box-container{
+    width: 400px;
+    height: 200px;
+    text-align: center;
+    position: absolute;
+    right: 100px;
+    bottom: 250px;
+}
+.box-background{
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    opacity: .8;
+    position: relative;
+}
+.title-box{
+    position: absolute;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    top: 0;
+    padding-top: 65px ;
+}
+.title-box h1{
+    font-size: 32px;
+    margin-bottom: 25px;
+}
+.title-box p{
+    font-size: 20px;
+}
+.agence-info{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 175px;
+}
+.background-agence-info{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #ddd;
+    opacity: .8;
+}
+.agence-info-title{
+    position: relative;
+    top: 40px;
+    padding-left: 10%;
+    width: 500px;
+}
+.agence-info-title h2{
+    font-size: 28px;
+    margin-bottom: 30px;
+    color: #222;
+}
+.agence-info-title p{
+    font-size: 20px;
+    color: #222;
+}
+/*services*/
+.service-container{
+    max-width: 1200px;
+    padding: 30px 10%;
+    padding-bottom: 0;
+}
+.service-box{
+    position: relative;
+    width: 100%;
+    height: 150px;
+    clear: both;
+    margin-bottom: 30px;
+}
+.service-box:last{
+    margin-bottom: 0;
+}
+.service-title{
+    width: 20%;
+    height: 150px;
+    background-color: #ddd;
+    float: left;
+    text-align: center;
+    line-height: 150px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.service-title p{
+    color: white;
+    font-size: 25px;
+    padding-top: 35px;
+    line-height: 24px;
+}
+.service-description{
+    width: 80%;
+    float: left;
+    padding: 30px;
+    box-sizing: border-box;
+    
+}
+.service-description h3{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.service-description p{
+    font-size: 19px;
+    line-height: 22px;
+}
+#gerenciamento-title{
+    color: #2364aa;
+}
+#desenvolvimento-title{
+    color: #3da5d9;
+}
+#ui-ux-title{
+    color: #73bfb8;
+}
+#gerenciamento-box{
+    background-color: #2364aa;
+}
+#desenvolvimento-box{
+    background-color: #3da5d9;
+}
+#ui-ux-box{
+    background-color: #73bfb8;
+}
+
+.footer-container{
+    background-image: url(img/rodape.jpg);
+    height: 900px;
+    width: 100%;
+}
+.about-container{
+    text-align: center;
+    height: 300px;
+    width: 100%;
+    
+}
+.about-card{
+    border-radius: 15px;
+    width: 320px;
+    height: 260px;
+    background-color: #FFF;
+    display: inline-block;
+    margin: 20px;
+
+}
+.about-card i{
+    margin-top: 25px;
+    color: gray;
+    font-size: 58px;
+}
+.about-card p{
+    margin-top: 30px;
+    color: gray;
+    font-size: 18px;
+}
